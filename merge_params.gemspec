@@ -27,8 +27,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.required_ruby_version = ">= 2.3.0"
-  spec.add_dependency "activesupport", [">= 4.2", "< 5.3"]
-  spec.add_dependency "actionpack", [">= 4.2", "< 5.3"]
+  spec.add_dependency "activesupport", [">= 6.1.7", "< 7.0.4.2"]
+  spec.add_dependency "actionpack", [">= 6.1.7", "< 7.0.4.2"]
   spec.add_dependency "facets"
 
   spec.add_development_dependency "bundler", "~> 2"
